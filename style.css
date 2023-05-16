@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+text-align: center;
+}
+
+nav {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(218, 206, 206);
+}
+
+figure {
+  text-align: center;
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+.featured {
+  text-align: center;
+}
+
+.container2 {
+  display: flex;
+  text-align: center;
+}
+
+.div1, .div2, .div3, .div4 {
+  width: 25%;
+  float: left;
+  background: rgb(228, 159, 30);
+  padding: 10px;
+}
